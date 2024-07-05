@@ -1,0 +1,27 @@
+.course{
+    padding: 50px 100px;
+}
+.box{
+    padding: 10px 20px;
+}
+
+@media screen and (max-width:600px) {
+    .course{
+        background-color: #eff6ff;
+        padding: 50px 10px;
+    }
+}
+
+h1.text-center {
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% transparency */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add padding for better readability */
+}
+
+h6 {
+    font-size: 20px !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white !important; /* Ensure the color is applied */
+    padding: 10px 20px; /* Add padding for better readability */
+    width: 50%;
+}

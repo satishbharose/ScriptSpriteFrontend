@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #f3f4f6;
+}
+
+.navbar-light .navbar-nav .nav-item:hover {
+    color: pink;
+    font-size: 18px;
+    /* text-decoration: underline; */
+}
+
+.app-container {
+    background-image: url('../images/backnew.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Ensures the container takes up at least the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container {
+    margin-top: auto; /* Pushes the footer to the bottom */
+}

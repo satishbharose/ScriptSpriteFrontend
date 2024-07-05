@@ -1,0 +1,19 @@
+.contactus{
+    /* background-color: white; */
+}
+
+.login{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px 30px;
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+@media screen and (max-width:600px){
+    .joinnow{
+        padding: 140px 30px;
+    }
+}

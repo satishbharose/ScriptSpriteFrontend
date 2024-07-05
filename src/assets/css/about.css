@@ -1,0 +1,16 @@
+.follow a {
+    padding: 10px;
+    color:white;
+    font-weight: bold;
+}
+
+.about {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .follow a{
+        padding: 5px;
+    }
+}

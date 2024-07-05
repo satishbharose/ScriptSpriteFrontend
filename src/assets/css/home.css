@@ -1,0 +1,49 @@
+/* home.css */
+
+.home img {
+    width: 100px;
+    height: 400px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.homecontent {
+    text-align: center; /* Center align the content */
+    margin-top: 50vh; /* Move the content down by half of the viewport height */
+    transform: translateY(-50%); /* Center vertically */
+}
+
+.homecontent h1 {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 10px 20px;
+    position: relative; /* Add position relative for z-index */
+    display: inline-block;
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.homecontent a {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .home img {
+        height: 500px;
+    }
+
+    .homecontent h1 {
+        font-size: 40px;
+    }
+}
